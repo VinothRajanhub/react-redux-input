@@ -1,0 +1,55 @@
+.carmanufacture{
+    margin-left: 20px;
+}
+
+.carmodel{
+    margin-left: 65px;
+}
+
+.caryear{
+    margin-left: 75px;
+}
+
+.cardetailssubmit{
+    background-color: #0a66c2;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+
+.cardetailssubmit:disabled {
+    background-color: #91b5d8;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+
+.updatecarsubmit{
+    background-color: #0a66c2;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+
+.updatecarsubmit:disabled {
+    background-color: #91b5d8;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}

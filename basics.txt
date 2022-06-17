@@ -1,0 +1,10 @@
+npm i redux react-redux
+
+connect accepts four different parameters, all optional.
+
+mapStateToProps:
+
+mapStateToProps function is specified, the new wrapper component will subscribe to Redux store updates. 
+This means that any time the store is updated, mapStateToProps will be called. 
+The results of mapStateToProps must be a plain object, which will be merged into the wrapped component’s props. 
+If you don't want to subscribe to store updates, pass null or undefined in place of mapStateToProps

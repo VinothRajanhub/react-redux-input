@@ -1,0 +1,33 @@
+.appoinmentsubmit {
+    background-color: #0a66c2;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+
+.appoinmentupdate {
+    background-color: #0a66c2;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}
+
+.appoinsubmit{
+    background-color: #0a66c2;
+    padding: 7px 0;
+    border-style: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 10%;
+}

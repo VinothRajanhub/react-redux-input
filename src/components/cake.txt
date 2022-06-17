@@ -1,0 +1,76 @@
+import React from "react";
+
+import {connect} from "react-redux";
+
+import { buyCake } from "../components/redux/cakes/cakeActions";
+
+function CakeContainer(props){
+    return(
+        <div>
+            <h2>Number of Cakes - {props.numOfCakes}</h2>
+            <button onClick={props.buyCake}>Subtract</button>
+        </div>
+    )
+}
+
+
+
+// selector
+const mapStateToprops = state => {
+    return {
+        numOfCakes : state.numOfCakes
+    }
+}
+
+const mapDispatchToprops = dispatch => {
+    return {
+        buyCake : () => dispatch(buyCake()) 
+    }
+}
+
+// connect() function connects a React component to a Redux store.
+
+export default connect(mapStateToprops,mapDispatchToprops)(CakeContainer);
+
+
+// cakeActions
+// An action is an object with type property
+
+// It carries a payload of information from your application to store.
+
+// Action Creator defines a function that returns an object
+
+
+import { BUY_CAKE } from "./cakeTypes";
+
+export const buyCake = () =>{
+    return{
+        type : BUY_CAKE
+    }
+}
+
+
+
+// cakeReducer
+
+import { BUY_CAKE } from "./cakeTypes";
+
+const initialState = {
+    numOfCakes : 10
+}
+
+const cakeReducer = (state = initialState, action) => {
+    switch(action.type){
+        case BUY_CAKE : return {
+            ...state,
+            numOfCakes : state.numOfCakes - 1 
+        }
+        default : return state
+    }
+}
+
+export default cakeReducer;
+
+// cakeType
+
+export const BUY_CAKE = 'BUY_CAKE';

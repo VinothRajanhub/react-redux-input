@@ -1,0 +1,97 @@
+.personaldetails {
+  background-color: white;
+}
+
+.updatepersonaldetails{
+  background-color: white;
+}
+
+.parastyle {
+  text-align: left;
+}
+
+.inputstyle {
+  background-color: whitesmoke;
+  padding: 5px 5px;
+  width: 15%;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 15px 7px;
+}
+
+.updateinputstyle{
+  background-color: whitesmoke;
+  padding: 5px 5px;
+  width: 15%;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 15px 7px;
+}
+
+.personalfno {
+  margin-left: 55px;
+}
+
+.personallno {
+  margin-left: 55px;
+}
+
+.personalphone {
+  margin-left: 20px;
+}
+
+.personalemail {
+  margin-left: 88px;
+}
+
+.flex-style {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+}
+/* .viewstyle{
+ text-align: center;
+ background-color: white;
+ box-shadow: 0 6px 25px 0 rgba(0,0,0,.12);
+ border: 1px solid #e1e1e1;
+ width: 30%;
+ margin: 0 auto;
+ display: block;
+} */
+
+.editstyle{
+  float: right;
+  margin: 5px 30px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(135, 34, 230);
+}
+
+.nextsection{
+  padding-top: 10px;
+}
+
+.usersubmit {
+  background-color: #0a66c2;
+  padding: 7px 0;
+  border-style: none;
+  margin-left: 170px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  width: 10%;
+}
+
+.usersubmit:disabled {
+  background-color: #91b5d8;
+  padding: 7px 0;
+  border-style: none;
+  margin-left: 170px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  width: 10%;
+}
